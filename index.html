@@ -8,13 +8,26 @@
 </head>
 
 <body>
-  <nav>
-    <select name="season"></select>
-  </nav>
-
+  
+  
+  <article class="productForm">
+    <fieldset>
+      <legend>New product</legend>
+      <div>Name:</div>
+      <div><input type="text" name="productName"></div>
+      <div>Category:</div>
+      <div><select name="productCategory"></select></div>
+      <div>Price:</div>
+      <div><input type="number" name="productPrice"></div>
+      <div><button id="productSave">Save</button></div>
+    </fieldset>
+  </article>
+  
+  Filter products by season: <select name="season"></select>
   <article class="productListing"></article>
-
+  
   <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
   <script src="./scripts/store.js"></script>
+  <script src="./scripts/events.js"></script>
 </body>
 </html>
