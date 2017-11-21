@@ -62,6 +62,9 @@ const Catalog = Object.create(null, {
                             <div>
                                 <button id="delete!${key}">Delete Me</button>
                             </div>
+                            <div>
+                                <button id="edit!${key}">Edit Me</button>
+                            </div>
                         </article>
                     `
                 }
